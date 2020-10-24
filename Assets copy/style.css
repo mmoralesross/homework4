@@ -1,6 +1,6 @@
 *, *::before, *::after {
 box-sizing: border-box;
-font-family: Gotham Rounded
+font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -48,7 +48,7 @@ body.wrong{
 }
 
 .btn {
-    --hue: var(--neutral);
+    --hue: var(--hue-neutral);
     background-color: hsl(var(--hue), 100%, 50%);
     border: 1px solid hsl(var(--hue), 100%, 30%);
     border-radius: 5px;
