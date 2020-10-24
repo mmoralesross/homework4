@@ -36,7 +36,14 @@ body.wrong{
     max-width: 80%;
     background-color: white;
     border-radius: 5px;
-    
-
-
+    padding: 10 px;
+    box-shadow: 0 0 10px 2px;
 }
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
