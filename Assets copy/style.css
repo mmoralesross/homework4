@@ -30,3 +30,13 @@ body.correct {
 body.wrong{
     --hue: var(--hue-wrong); 
 }
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    
+
+
+}
